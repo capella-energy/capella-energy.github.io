@@ -1,0 +1,441 @@
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+  width: 100%;
+  background-color: #EEEEF7;
+}
+
+/*Navbar*/
+.navbar {
+  background: transparent;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#nav-item {
+  font-weight: 300;
+  margin-right: 0px;
+  font-size: 18px;
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  color: rgb(237, 239, 245);
+
+}
+
+#nav-item:hover {
+  color:  #0065b9ff;
+}
+
+.navbar-brand {
+  padding-top: 10px;
+}
+
+#logotext {
+  font-size: 30px;
+  margin-bottom: 0;
+  color: white;
+  font-weight: 800;
+}
+
+.navbar-toggler {
+  border: 0;
+  color: rgb(136, 146, 176);
+
+}
+
+
+span {
+  color: rgb(13, 34, 68);
+}
+
+/*Header*/
+.jumbotron {
+  color: white;
+
+  background-color: #01203A;
+  background: url('./back4.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  padding-top: 0;
+
+  padding-bottom: 180px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.header-section {
+  text-align: left;
+  margin-top: 60px;
+  max-width: 730px;
+  float: right;
+  margin-right: 40px;
+
+}
+
+h1 {
+  color: white;
+  font-family: Montserrat;
+  font-size: 55px;
+  font-weight: 800;
+  margin-top: 80px;
+  margin-bottom: 20px;
+
+}
+
+#the-bluub {
+  margin-bottom: 30px;
+  font-size: 24px;
+
+}
+
+ul {
+  margin-left: 15px;
+}
+
+
+
+#view-btn {
+  color: white;
+  background-color: #0065b9ff;
+  border-color: #0065b9ff;
+  font-weight: 500;
+  padding: 10px 20px 10px 20px;
+  border-radius: 0;
+}
+
+#view-btn:hover {
+  background-color:  #172a45;
+}
+
+/*Multiple sections*/
+.section-one, .section-two, .section-three {
+  padding-top: 70px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 180px;
+}
+
+
+h2 {
+  margin-bottom: 40px;
+  font-weight: 600;
+  color: #01203A;
+}
+
+
+
+/*Section 1*/
+
+#card-icon-item {
+  margin-bottom: 20px;
+}
+
+.card {
+  border: 0;
+  min-width: 250px;
+  background: transparent;
+}
+
+
+#card-body {
+  background: transparent;
+  text-align: center;
+}
+
+.section-one {
+  text-align: center;
+
+}
+
+.card-text, .card-title, #card-icon-item {
+  color: #01203A;
+  margin-bottom: 25px;
+}
+
+.card-text {
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+/*Section 2n*/
+
+.section-two {
+  text-align: center;
+}
+
+
+
+
+/*Section1*/
+.section-three {
+  text-align: center;
+}
+
+
+
+
+/*Footer*/
+#footer {
+  color: rgb(136, 146, 176);
+  font-size: 12px;
+  text-align: center;
+  padding-top: 90px;
+  padding-left: 220px;
+  padding-right: 220px;
+  padding-bottom: 60px;
+}
+
+#socialitem {
+  color: rgb(136, 146, 176);
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+#socialitem:hover {
+  color: #c49c67;
+}
+
+#social-icons {
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+#footer p {
+  color: rgb(136, 146, 176);
+  font-size: 16px;
+  margin-bottom: 60px;
+  padding: 0 140px 0 140px;
+}
+
+
+#copyrightinfo {
+  font-size: 12px;
+}
+
+/* small devices (portrait phones, less than 760px) */
+
+@media (max-width: 760.00px) {
+  .section-one, .section-two, .section-three {
+    padding-top: 90px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 140px;
+  }
+
+  #footer {
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 60px;
+  }
+
+  .jumbotron{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .navbar {
+    padding-left: 10px;
+    padding-right: 0px;
+  }
+
+  #main-title, #aspiring-title {
+    font-size: 40px;
+  }
+
+  #hi-title {
+    font-size: 13px;
+  }
+
+  .par-and-img {
+    display: block;
+  }
+
+  .profile {
+    height: 120px;
+    margin-bottom: 40px;
+  }
+
+  .about-par {
+    max-width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 14px;
+  }
+
+  .footer-par {
+    max-width: 100%;
+
+  }
+
+  #footer-par {
+    font-size: 14px;
+  }
+
+  #footer p {
+    padding: 0 0 0 0;
+    font-size: 14px;
+  }
+
+  #quoteDisplay {
+    margin: 0 0 0 0;
+    font-size: 14px;
+  }
+
+  h6 {
+    font-size: 16px;
+
+  }
+
+  .container.shadow-sm {
+    max-width: 100%;
+  }
+
+  #nav-item {
+    padding-left: 10px;
+  }
+
+  #view-btn {
+    font-size: 14px;
+  }
+}
+
+
+
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 761px) and (max-width: 998.99px) {
+    .section-one, .section-two, .section-three {
+      padding-top: 90px;
+      padding-left: 40px;
+      padding-right: 40px;
+      padding-bottom: 140px;
+    }
+
+
+    #footer {
+      padding-top: 30px;
+      padding-left: 40px;
+      padding-right: 40px;
+      padding-bottom: 60px;
+    }
+
+    #nav-item {
+      padding-left: 10px;
+    }
+
+    .jumbotron{
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+
+    .navbar {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+
+    #main-title, #aspiring-title {
+      font-size: 45px;
+    }
+
+    #hi-title {
+      font-size: 13px;
+    }
+
+    .par-and-img {
+      display: block;
+
+    }
+
+    .profile {
+      height: 140px;
+      margin-bottom: 40px;
+    }
+
+    .about-par {
+      max-width: 90%;
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+
+    .footer-par {
+      max-width: 70%;
+    }
+
+    #footer p {
+      padding: 0 0 0 0;
+    }
+
+    #quoteDisplay {
+        margin: 0 120px 30px 120px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 999px) and (max-width: 1280.00px) {
+  .section-one, .section-two, .section-three {
+    padding-top: 90px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 140px;
+  }
+
+  #nav-item {
+    padding-left: 10px;
+  }
+
+
+  #footer {
+    padding-top: 30px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 60px;
+  }
+  .jumbotron{
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+
+  .navbar {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  #main-title, #aspiring-title {
+    font-size: 50px;
+  }
+
+  #hi-title {
+    font-size: 16px;
+  }
+
+  .par-and-img {
+      display: block;
+
+    }
+
+  .profile {
+      height: 140px;
+      margin-bottom: 40px;
+    }
+
+  .about-par {
+      max-width: 100%;
+    }
+
+    #footer p {
+      padding: 0 0 0 0;
+    }
+
+    #quoteDisplay {
+        margin: 0 180px 30px 180px;
+    }
+
+  .footer-par {
+      max-width: 85%;
+    }
+}
