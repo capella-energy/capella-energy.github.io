@@ -52,6 +52,16 @@ span {
   color: rgb(13, 34, 68);
 }
 
+#sign-in-button {
+  background-color: transparent;
+  padding: 0  10px 0 10px;
+  margin-left: 16px;
+  margin-bottom: 2px;
+  border-width: 2.5px;
+  border-color: #0065b9ff;
+  border-radius: 25px 25px;
+}
+
 /*Header*/
 .jumbotron {
   color: white;
@@ -70,10 +80,10 @@ span {
 
 .header-section {
   text-align: left;
-  margin-top: 60px;
+  margin-top: 70px;
   max-width: 730px;
   float: right;
-  margin-right: 40px;
+  margin-right: 60px;
 
 }
 
