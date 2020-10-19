@@ -237,6 +237,7 @@ h2 {
   .jumbotron{
     padding-left: 10px;
     padding-right: 10px;
+    background-image: url("./assets/back-mobile1.svg");
   }
 
   .navbar {
@@ -244,8 +245,8 @@ h2 {
     padding-right: 0px;
   }
 
-  #main-title, #aspiring-title {
-    font-size: 40px;
+  #main-title {
+    font-size: 30px;
   }
 
   #hi-title {
@@ -331,6 +332,7 @@ h2 {
     .jumbotron{
       padding-left: 40px;
       padding-right: 40px;
+      background-image: url("./assets/back-mobile1.svg");
     }
 
     .navbar {
@@ -338,8 +340,8 @@ h2 {
       padding-right: 30px;
     }
 
-    #main-title, #aspiring-title {
-      font-size: 45px;
+    #main-title {
+      font-size: 35px;
     }
 
     #hi-title {
