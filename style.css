@@ -176,6 +176,7 @@ h2 {
 
 .section-two {
   text-align: center;
+  background-color: #083A5B;
 }
 
 #main-p {
@@ -186,13 +187,18 @@ h2 {
   text-align: left;
 }
 
+#main-p, #main-t{
+  color: #f9f9f9;
+}
 /*Section 3*/
 .section-three {
   text-align: center;
+  background-color: #0D81A6;
 }
 
 .section-four {
   text-align: center;
+  background-color: #0E98BE;
 }
 
 
@@ -222,14 +228,6 @@ h2 {
   padding-top: 60px;
 }
 
-#footer p {
-  color: rgb(136, 146, 176);
-  font-size: 16px;
-  margin-bottom: 60px;
-  padding: 0 140px 0 140px;
-}
-
-
 #copyrightinfo {
   font-size: 12px;
 }
@@ -237,7 +235,7 @@ h2 {
 /* small devices (portrait phones, less than 760px) */
 
 @media (max-width: 760.00px) {
-  .section-one, .section-two, .section-three {
+  .section-one, .section-two, .section-three, .section-four {
     padding-top: 90px;
     padding-left: 10px;
     padding-right: 10px;
@@ -266,49 +264,19 @@ h2 {
     font-size: 30px;
   }
 
-  #hi-title {
-    font-size: 13px;
-  }
-
-  .par-and-img {
-    display: block;
-  }
-
-  .profile {
-    height: 120px;
-    margin-bottom: 40px;
-  }
-
-  .about-par {
-    max-width: 100%;
-    padding-left: 0px;
-    padding-right: 0px;
-    font-size: 14px;
-  }
-
-  .footer-par {
-    max-width: 100%;
-
-  }
-
-  #footer-par {
-    font-size: 14px;
-  }
-
-  #footer p {
-    padding: 0 0 0 0;
-    font-size: 14px;
-  }
-
-  #quoteDisplay {
-    margin: 0 0 0 0;
-    font-size: 14px;
-  }
 
   h6 {
-    font-size: 16px;
-
+    font-size: 18px;
   }
+
+  h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  }
+
+  #main-p {
+      font-size: 16px;
+    }
 
   .container.shadow-sm {
     max-width: 100%;
@@ -327,10 +295,10 @@ h2 {
 
 /* Medium devices (tablets, less than 992px) */
 @media (min-width: 761px) and (max-width: 998.99px) {
-    .section-one, .section-two, .section-three {
+    .section-one, .section-two, .section-three, .section-four {
       padding-top: 90px;
-      padding-left: 40px;
-      padding-right: 40px;
+      padding-left: 25px;
+      padding-right: 25px;
       padding-bottom: 140px;
     }
 
@@ -346,7 +314,7 @@ h2 {
       padding-left: 10px;
     }
 
-    .jumbotron{
+    .jumbotron {
       padding-left: 40px;
       padding-right: 40px;
       background-image: url("./assets/back-mobile1.svg");
@@ -361,46 +329,20 @@ h2 {
       font-size: 35px;
     }
 
-    #hi-title {
-      font-size: 13px;
-    }
-
-    .par-and-img {
-      display: block;
-
-    }
-
-    .profile {
-      height: 140px;
-      margin-bottom: 40px;
-    }
-
-    .about-par {
-      max-width: 90%;
-      padding-left: 40px;
-      padding-right: 40px;
-    }
-
-    .footer-par {
-      max-width: 70%;
-    }
-
-    #footer p {
-      padding: 0 0 0 0;
-    }
-
-    #quoteDisplay {
-        margin: 0 120px 30px 120px;
-    }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 999px) and (max-width: 1280.00px) {
-  .section-one, .section-two, .section-three {
+  .section-one, .section-two, .section-three, .section-four {
     padding-top: 90px;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 100px;
+    padding-right: 100px;
     padding-bottom: 140px;
+  }
+
+  .jumbotron {
+    padding-left: 50px;
+    padding-right: 50px;
   }
 
   #nav-item {
@@ -414,47 +356,9 @@ h2 {
     padding-right: 150px;
     padding-bottom: 60px;
   }
-  .jumbotron{
-    padding-left: 150px;
-    padding-right: 150px;
-  }
-
-  .navbar {
-    padding-left: 60px;
-    padding-right: 60px;
-  }
 
   #main-title, #aspiring-title {
     font-size: 50px;
   }
 
-  #hi-title {
-    font-size: 16px;
-  }
-
-  .par-and-img {
-      display: block;
-
-    }
-
-  .profile {
-      height: 140px;
-      margin-bottom: 40px;
-    }
-
-  .about-par {
-      max-width: 100%;
-    }
-
-    #footer p {
-      padding: 0 0 0 0;
-    }
-
-    #quoteDisplay {
-        margin: 0 180px 30px 180px;
-    }
-
-  .footer-par {
-      max-width: 85%;
-    }
 }
