@@ -132,7 +132,7 @@ ul {
 
 
 h2 {
-  margin-bottom: 60px;
+  margin-bottom: 30px;
   font-weight: 600;
   color: #01203A;
 }
@@ -182,7 +182,9 @@ h2 {
   font-size: 18px;
 }
 
-
+#tit-and-par {
+  text-align: left;
+}
 
 /*Section 3*/
 .section-three {
