@@ -7,7 +7,7 @@
 body {
   font-family: Montserrat, sans-serif;
   width: 100%;
-  background-color: #EEEEF7;
+  background-color: #f4f4f4;
 }
 
 /*Navbar*/
@@ -124,10 +124,10 @@ ul {
 
 /*Multiple sections*/
 .section-one, .section-two, .section-three, .section-four {
-  padding-top: 70px;
+  padding-top: 100px;
   padding-left: 100px;
   padding-right: 100px;
-  padding-bottom: 180px;
+  padding-bottom: 100px;
 }
 
 
@@ -135,6 +135,7 @@ h2 {
   margin-bottom: 30px;
   font-weight: 600;
   color: #01203A;
+  font-size: 40px;
 }
 
 
@@ -175,32 +176,62 @@ h2 {
 /*Section 2*/
 
 .section-two {
+  background-color: #01203A;
   text-align: center;
-  background-color: #083A5B;
+
 }
 
-#main-p {
+
+#main-p2 {
   font-size: 18px;
 }
 
-#tit-and-par {
+#tit-and-par2 {
   text-align: left;
+  vertical-align: middle;
+  align-items: center;
 }
 
-#main-p, #main-t{
+#main-p2, #main-t2{
   color: #f9f9f9;
 }
+
+
 /*Section 3*/
 .section-three {
   text-align: center;
-  background-color: #0D81A6;
 }
 
+#main-p3, #main-t3{
+  color: #01203A;
+}
+
+#main-p3 {
+  font-size: 18px;
+}
+
+#tit-and-par3 {
+  text-align: left;
+}
+
+/*Section 4*/
 .section-four {
   text-align: center;
-  background-color: #0E98BE;
+  background-color: #01203A;
+
 }
 
+#main-p4, #main-t4{
+  color: #f9f9f9;
+}
+
+#main-p4 {
+  font-size: 18px;
+}
+
+#tit-and-par4 {
+  text-align: left;
+}
 
 /*Footer*/
 #footer {
