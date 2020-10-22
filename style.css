@@ -77,6 +77,7 @@ span {
   padding-top: 0;
   padding-left: 30px;
   padding-right: 30px;
+  margin-bottom: 0;
 }
 
 .header-section {
@@ -122,7 +123,7 @@ ul {
 }
 
 /*Multiple sections*/
-.section-one, .section-two, .section-three, .section-four, #footer {
+.meet-capella, .section-one, .section-two, .section-three, .section-four, #footer {
   padding-top: 100px;
   padding-left: 100px;
   padding-right: 100px;
@@ -136,7 +137,26 @@ h2 {
   font-size: 40px;
 }
 
+/*Meet Capella Section*/
 
+.meet-capella {
+  background-color: #01203A;
+  color: #f9f9f9;
+  text-align: center;
+}
+
+#meet-capella-t {
+  color: #f9f9f9;
+}
+
+#meet-capella-p {
+
+}
+
+#meet-capella-button {
+  background-color: #f9f9f9;
+  color: #01203A
+}
 
 /*Section 1*/
 
@@ -217,6 +237,10 @@ h2 {
   text-align: left;
 }
 
+#main-t3 {
+  color: #01203A;
+}
+
 /*Section 4*/
 .section-four {
   text-align: center;
@@ -269,7 +293,7 @@ h2 {
 /* small devices (portrait phones, less than 760px) */
 
 @media (max-width: 760.00px) {
-  .section-one, .section-two, .section-three, .section-four, #footer {
+  .meet-capella, .section-one, .section-two, .section-three, .section-four, #footer {
     padding-top: 90px;
     padding-left: 10px;
     padding-right: 10px;
@@ -334,6 +358,9 @@ h2 {
     padding-left: 7px;
   }
 
+  #meet-capella-p {
+    max-width: 100%
+  }
 
 }
 
@@ -341,7 +368,7 @@ h2 {
 
 /* Medium devices (tablets, less than 992px) */
 @media (min-width: 761px) and (max-width: 998.99px) {
-    .section-one, .section-two, .section-three, .section-four, #footer {
+    .meet-capella, .section-one, .section-two, .section-three, .section-four, #footer {
       padding-top: 90px;
       padding-left: 25px;
       padding-right: 25px;
@@ -377,12 +404,17 @@ h2 {
       padding-left: 7px;
     }
 
+    #meet-capella-p {
+      max-width: 85%
+    }
+
+
 
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 999px) and (max-width: 1280.00px) {
-  .section-one, .section-two, .section-three, .section-four, #footer {
+  .meet-capella, .section-one, .section-two, .section-three, .section-four, #footer {
     padding-top: 90px;
     padding-left: 100px;
     padding-right: 100px;
@@ -409,6 +441,11 @@ h2 {
     margin-left: 0;
     padding-left: 7px;
   }
+
+  #meet-capella-p {
+    max-width: 70%
+  }
+
 
 
 }
