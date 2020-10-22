@@ -84,8 +84,6 @@ span {
   margin-top: 70px;
   max-width: 730px;
   float: right;
-  margin-right: 60px;
-
 }
 
 h1 {
@@ -288,6 +286,7 @@ h2 {
   .jumbotron{
     padding-left: 10px;
     padding-right: 10px;
+    overflow-x: auto;
     background-image: url("./assets/back-mobile1.svg");
     /*background-image: linear-gradient(#185a9d, #43cea2);*/
   }
@@ -318,10 +317,21 @@ h2 {
 
   #view-btn {
     font-size: 14px;
+    width: 100%;
+  }
+
+  .header-section {
+    margin-left: 0;
   }
 
   #tit-and-par2, #tit-and-par3, #tit-and-par4  {
     min-width: 60%
+  }
+
+  #sign-in-button {
+    margin-top: 10px;
+    margin-left: 0;
+    padding-left: 7px;
   }
 
 
@@ -361,6 +371,13 @@ h2 {
       font-size: 35px;
     }
 
+    #sign-in-button {
+      margin-top: 10px;
+      margin-left: 0;
+      padding-left: 7px;
+    }
+
+
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -386,5 +403,12 @@ h2 {
   #main-title, #aspiring-title {
     font-size: 50px;
   }
+
+  #sign-in-button {
+    margin-top: 10px;
+    margin-left: 0;
+    padding-left: 7px;
+  }
+
 
 }
