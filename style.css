@@ -63,6 +63,11 @@ span {
   border-width: 2.5px;
   border-color: #0065b9ff;
   border-radius: 25px 25px;
+
+}
+
+.sign-in-text {
+  font-weight: 800;
 }
 
 /*Header*/
@@ -147,10 +152,12 @@ h2 {
 
 #meet-capella-t {
   color: #f9f9f9;
+  margin-bottom: 15px;
 }
 
 #meet-capella-p {
-
+  margin: 30px 250px 30px 250px;
+  line-height: 1.8;
 }
 
 #meet-capella-button {
@@ -359,7 +366,7 @@ h2 {
   }
 
   #meet-capella-p {
-    max-width: 100%
+    margin: 30px 0px 30px 0px;
   }
 
 }
@@ -405,11 +412,8 @@ h2 {
     }
 
     #meet-capella-p {
-      max-width: 85%
+      margin: 30px 0px 30px 0px;
     }
-
-
-
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -432,20 +436,16 @@ h2 {
 
 
 
-  #main-title, #aspiring-title {
-    font-size: 50px;
-  }
 
   #sign-in-button {
-    margin-top: 10px;
-    margin-left: 0;
+
+
     padding-left: 7px;
   }
 
   #meet-capella-p {
-    max-width: 70%
+    margin: 30px 0px 30px 0px;
   }
-
 
 
 }
