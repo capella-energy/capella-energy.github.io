@@ -61,7 +61,8 @@ span {
   margin-left: 16px;
   margin-bottom: 2px;
   border-width: 2.5px;
-  border-color: #0065b9ff;
+  /*border-color: #0065b9ff;*/
+  border-color: #6ecf5b;
   border-radius: 25px 25px;
 
 }
@@ -117,15 +118,16 @@ ul {
 #view-btn {
   color: white;
   /*background-color: #0065b9ff;*/
-  background-color: #32CD32;
-  border-color: #0065b9ff;
+  /*background-color: #32CD32;*/
+  background-color: #6ecf5b;
+  border-color: #6ecf5b;
   font-weight: 500;
   padding: 10px 20px 10px 20px;
   border-radius: 0;
 }
 
 #view-btn:hover {
-  background-color:  #172a45;
+  background-color: rgb(69, 128, 57);
 }
 
 /*Multiple sections*/
@@ -162,9 +164,13 @@ h2 {
 }
 
 #meet-capella-button {
-  background-color: #f9f9f9;
-  color: #01203A
+  background-color: #6ecf5b;
+  color: #01203A;
+  font-weight: 600;
+  padding: 10px 20px 10px 20px;
+  border-radius: 0;
 }
+
 
 /*Section 1*/
 
