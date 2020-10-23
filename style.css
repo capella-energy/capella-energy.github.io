@@ -457,6 +457,7 @@ h2 {
     padding-left: 30px;
     padding-right: 30px;
     background-image: url("./assets/slice.png");
+    background-size: cover;
   }
 
   #nav-item {
