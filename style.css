@@ -64,7 +64,12 @@ span {
   /*border-color: #0065b9ff;*/
   border-color: #6ecf5b;
   border-radius: 25px 25px;
+  font-weight: 600;
 
+}
+
+#sign-in-button:hover {
+  background-color: #6ecf5b;
 }
 
 .sign-in-text {
@@ -159,8 +164,8 @@ h2 {
 }
 
 #meet-capella-p {
-  margin: 30px 250px 30px 250px;
-  line-height: 1.8;
+  margin: 30px 400px 30px 400px;
+  line-height: 2;
 }
 
 #meet-capella-button {
