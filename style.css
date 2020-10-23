@@ -343,7 +343,7 @@ h2 {
     padding-left: 10px;
     padding-right: 10px;
     overflow-x: auto;
-    background-image: url("./assets/Rectangle.png");
+    background-image: url("./assets/slice.png");
     /*background-image: linear-gradient(#185a9d, #43cea2);*/
   }
 
@@ -425,6 +425,7 @@ h2 {
       padding-left: 40px;
       padding-right: 40px;
       /*background-image: url("./assets/back-mobile1.svg");*/
+      background-image: url("./assets/slice.png");
     }
 
 
@@ -455,6 +456,7 @@ h2 {
   .jumbotron {
     padding-left: 30px;
     padding-right: 30px;
+    background-image: url("./assets/slice.png");
   }
 
   #nav-item {
