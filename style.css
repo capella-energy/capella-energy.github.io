@@ -164,7 +164,7 @@ h2 {
 }
 
 #meet-capella-p {
-  margin: 30px 400px 30px 400px;
+  margin: 30px 300px 30px 300px;
   line-height: 2;
 }
 
@@ -254,6 +254,7 @@ h2 {
 
 #tit-and-par3 {
   text-align: left;
+
 }
 
 #main-t3 {
@@ -273,6 +274,7 @@ h2 {
 
 #main-p4 {
   font-size: 18px;
+  margin-bottom: 30px;
 }
 
 #tit-and-par4 {
@@ -313,10 +315,10 @@ h2 {
 
 @media (max-width: 760.00px) {
   .meet-capella, .section-one, .section-two, .section-three, .section-four, #footer {
-    padding-top: 90px;
+    padding-top: 80px;
     padding-left: 10px;
     padding-right: 10px;
-    padding-bottom: 140px;
+    padding-bottom: 80px;
   }
 
   #footer {
@@ -381,6 +383,8 @@ h2 {
     margin: 30px 0px 30px 0px;
   }
 
+
+
 }
 
 
@@ -388,10 +392,10 @@ h2 {
 /* Medium devices (tablets, less than 992px) */
 @media (min-width: 761px) and (max-width: 998.99px) {
     .meet-capella, .section-one, .section-two, .section-three, .section-four, #footer {
-      padding-top: 90px;
+      padding-top: 100px;
       padding-left: 25px;
       padding-right: 25px;
-      padding-bottom: 140px;
+      padding-bottom: 100px;
     }
 
 
@@ -431,10 +435,10 @@ h2 {
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 999px) and (max-width: 1280.00px) {
   .meet-capella, .section-one, .section-two, .section-three, .section-four, #footer {
-    padding-top: 90px;
+    padding-top: 120px;
     padding-left: 100px;
     padding-right: 100px;
-    padding-bottom: 140px;
+    padding-bottom: 120px;
   }
 
   .jumbotron {
