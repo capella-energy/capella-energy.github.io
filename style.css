@@ -116,7 +116,8 @@ ul {
 
 #view-btn {
   color: white;
-  background-color: #0065b9ff;
+  /*background-color: #0065b9ff;*/
+  background-color: #32CD32;
   border-color: #0065b9ff;
   font-weight: 500;
   padding: 10px 20px 10px 20px;
@@ -439,8 +440,6 @@ h2 {
 
   #sign-in-button {
 
-
-    padding-left: 7px;
   }
 
   #meet-capella-p {
