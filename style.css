@@ -74,8 +74,8 @@ span {
 .jumbotron {
   color: white;
 
-  background-color: linear-gradient(to top, #00d2ff, #3a7bd5);
-  background-image: url('./assets/back5.svg');
+  background-image: linear-gradient(to top, #00d2ff, #3a7bd5);
+  background: url('./assets/back5.svg');
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
