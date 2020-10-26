@@ -344,7 +344,7 @@ h2 {
     padding-left: 10px;
     padding-right: 10px;
     overflow-x: auto;
-    background-image: url("./assets/Slice.png");
+    background-image: url("./assets/mobile1.png");
     /*background-image: linear-gradient(#185a9d, #43cea2);*/
   }
 
@@ -426,7 +426,7 @@ h2 {
       padding-left: 40px;
       padding-right: 40px;
       /*background-image: url("./assets/back-mobile1.svg");*/
-      background-image: url("./assets/Slice.png");
+      background-image: url("./assets/mobile1.png");
     }
 
 
@@ -457,7 +457,7 @@ h2 {
   .jumbotron {
     padding-left: 30px;
     padding-right: 30px;
-    background-image: url("./assets/Slice.png");
+    background-image: url("./assets/mobile1.png");
     background-size: cover;
   }
 
