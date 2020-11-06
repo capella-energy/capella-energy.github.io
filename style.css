@@ -86,8 +86,13 @@ span {
   padding-top: 0;
   padding-left: 30px;
   padding-right: 30px;
-  margin-bottom: 0;
+  margin-bottom: 10px;
   overflow: auto;
+  border-bottom-right-radius: 900px 180px;
+  border-bottom-left-radius: 900px 180px;
+  border-width: 30px;
+  box-shadow: 1px 1px 1px 1px #ccc;
+
 }
 
 .header-section {
@@ -430,7 +435,7 @@ h2 {
     .jumbotron {
       padding-left: 40px;
       padding-right: 40px;
-      background-image: url("./assets/back-mobile1.svg");
+      background-image: url("./assets/mobile1.png");
       /*background-image: url("./assets/mobile1.png");*/
     }
 
