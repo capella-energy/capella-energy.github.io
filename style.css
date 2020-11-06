@@ -28,9 +28,6 @@ body {
 
 }
 
-#nav-item:hover {
-  color:  #0065b9ff;
-}
 
 .navbar-brand {
   padding-top: 0;
@@ -70,10 +67,12 @@ span {
 
 #sign-in-button:hover {
   background-color: #6ecf5b;
+  
 }
 
 .sign-in-text {
   font-weight: 800;
+  color: #01203A;
 }
 
 /*Header*/
@@ -122,7 +121,7 @@ ul {
 
 
 #view-btn {
-  color: white;
+  color: #01203A;
   /*background-color: #0065b9ff;*/
   /*background-color: #32CD32;*/
   background-color: #6ecf5b;
@@ -132,18 +131,21 @@ ul {
   border-radius: 0;
 }
 
-#view-btn:hover {
-  background-color: rgb(69, 128, 57);
-}
 
 /*Multiple sections*/
-.meet-capella, .section-one, .section-two, .section-three, .section-four, #footer {
+ .section-one, .section-two, .section-three, .section-four, #footer {
   padding-top: 100px;
   padding-left: 100px;
   padding-right: 100px;
   padding-bottom: 100px;
 }
 
+.meet-capella {
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 100px;
+}
 
 h2 {
   font-weight: 600;
@@ -154,13 +156,12 @@ h2 {
 /*Meet Capella Section*/
 
 .meet-capella {
-  background-color: #01203A;
-  color: #f9f9f9;
+  background-color: #f4f4f4;
+  color: #01203A;
   text-align: center;
 }
 
 #meet-capella-t {
-  color: #f9f9f9;
   margin-bottom: 15px;
 }
 
@@ -172,9 +173,10 @@ h2 {
 #meet-capella-button {
   background-color: #6ecf5b;
   color: #01203A;
-  font-weight: 600;
+  font-weight: 500;
   padding: 10px 20px 10px 20px;
   border-radius: 0;
+  border-color: #6ecf5b;
 }
 
 
@@ -190,6 +192,9 @@ h2 {
   background: transparent;
 }
 
+.card-deck {
+  margin-top: 20px;
+}
 
 #card-body {
   background: transparent;
@@ -198,14 +203,18 @@ h2 {
 
 .section-one {
   text-align: center;
+  background-color: #01203A;
 
 }
 
 .card-text, .card-title, #card-icon-item {
-  color: #01203A;
+  color: #f4f4f4;
   margin-bottom: 25px;
 }
 
+#section-title1 {
+  color:#f4f4f4;
+}
 .card-text {
   font-size: 18px;
   line-height: 1.8;
@@ -214,7 +223,7 @@ h2 {
 /*Section 2*/
 
 .section-two {
-  background-color: #01203A;
+
   text-align: center;
 
 }
@@ -234,7 +243,7 @@ h2 {
 }
 
 #main-p2, #main-t2{
-  color: #f9f9f9;
+  color: #01203A;
 }
 
 
@@ -265,12 +274,11 @@ h2 {
 /*Section 4*/
 .section-four {
   text-align: center;
-  background-color: #01203A;
 
 }
 
 #main-p4, #main-t4{
-  color: #f9f9f9;
+  color: #01203A;
 }
 
 #main-p4 {
@@ -284,13 +292,14 @@ h2 {
 
 /*Footer*/
 #footer {
-  color: rgb(136, 146, 176);
   font-size: 12px;
   text-align: center;
-  padding-top: 90px;
-  padding-left: 220px;
-  padding-right: 220px;
-  padding-bottom: 60px;
+  background-color: #01203A;
+
+}
+
+#footer-title {
+  color: #f4f4f4;
 }
 
 /*
@@ -318,9 +327,12 @@ h2 {
   font-weight: 500;
   padding: 10px 20px 10px 20px;
   border-radius: 0;
+  color: #01203A;
 }
+
 #copyrightinfo {
   font-size: 12px;
+  color: #f4f4f4;
 }
 
 /* small devices (portrait phones, less than 760px) */
@@ -333,17 +345,11 @@ h2 {
     padding-bottom: 80px;
   }
 
-  #footer {
-    padding-top: 30px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 60px;
-  }
-
   .jumbotron{
     padding-left: 10px;
     padding-right: 10px;
     overflow-x: auto;
+
     background-image: url("./assets/mobile1.png");
     /*background-image: linear-gradient(#185a9d, #43cea2);*/
   }
@@ -359,7 +365,7 @@ h2 {
   }
 
   h2 {
-  font-size: 24px;
+  font-size: 28px;
   margin-bottom: 20px;
   }
 
@@ -425,8 +431,8 @@ h2 {
     .jumbotron {
       padding-left: 40px;
       padding-right: 40px;
-      /*background-image: url("./assets/back-mobile1.svg");*/
-      background-image: url("./assets/mobile1.png");
+      background-image: url("./assets/back-mobile1.svg");
+      /*background-image: url("./assets/mobile1.png");*/
     }
 
 
