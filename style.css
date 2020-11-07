@@ -91,8 +91,8 @@ span {
   border-bottom-left-radius: 900px 180px;*/
   border-width: 30px;
   box-shadow: 1px 1px 1px 1px #ccc;
-  border-bottom-right-radius: 50% 10%;
-  border-bottom-left-radius: 50% 10%;
+  border-bottom-right-radius: 50% 5%;
+  border-bottom-left-radius: 50% 5%;
 
 
 }
