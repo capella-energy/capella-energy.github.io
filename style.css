@@ -81,7 +81,7 @@ span {
   background: url('./assets/back5.svg');
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 80vh;
+  min-height: 100vh;
   padding-top: 0;
   padding-left: 30px;
   padding-right: 30px;
