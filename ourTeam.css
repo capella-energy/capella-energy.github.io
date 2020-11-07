@@ -1,1 +1,54 @@
-Dixon Cider
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color:  #01203A;
+  color: #f4f4f4;
+}
+
+.navbar {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.section-page{
+  background-color: #f4f4f4;
+
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 100px;
+  min-height: 100vh;
+}
+
+.section-t, .section-p {
+  color: #01203A;
+  margin-top: 0;
+}
+
+.section-area {
+  max-width: 70%;
+}
+
+@media (max-width: 760.00px) {
+  .navbar {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .section-page {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    min-height: 100vh;
+  }
+  .section-area {
+    max-width: 100%;
+  }
+
+  .section-t {
+    font-size: 28px;
+  }
+}
