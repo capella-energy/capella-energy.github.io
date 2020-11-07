@@ -357,6 +357,7 @@ h2 {
     padding-left: 10px;
     padding-right: 10px;
     overflow-x: auto;
+    min-height: 80vh;
     border-bottom-right-radius: 69% 4.20%;
     border-bottom-left-radius: 69% 4.20%;
 
@@ -444,6 +445,7 @@ h2 {
       padding-right: 40px;
       background-image: url("./assets/mobile1.png");
       /*background-image: url("./assets/mobile1.png");*/
+      min-height: 80vh;
       border-bottom-right-radius: 69% 4.20%;
       border-bottom-left-radius: 69% 4.20%;
     }
@@ -482,6 +484,7 @@ h2 {
     padding-right: 30px;
     background-image: url("./assets/mobile1.png");
     background-size: cover;
+    min-height: 80vh;
     border-bottom-right-radius: 69% 4.20%;
     border-bottom-left-radius: 69% 4.20%;
   }
