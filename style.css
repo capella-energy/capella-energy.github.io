@@ -520,7 +520,7 @@ h2 {
   }
   
   .header-section {
-      text-align: center;
+      float: left;
     }
   
 }
