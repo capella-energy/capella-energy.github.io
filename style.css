@@ -504,7 +504,7 @@ h2 {
     margin: 30px 0px 30px 0px;
   }
   
-  @media (min-width: 1280.01px) and (max-width: 1450.00px) {
+  @media (min-width: 1280.01px) and (max-width: 2900.00px) {
     .jumbotron {
       padding-left: 40px;
       padding-right: 40px;
