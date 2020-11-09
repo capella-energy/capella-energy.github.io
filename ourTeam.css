@@ -24,6 +24,10 @@ body {
   min-height: 100vh;
 }
 
+.section-t {
+  font-size: 36px;
+  font-weight: 500;
+}
 .section-t, .section-p {
   color: #01203A;
   margin-top: 0;
@@ -46,9 +50,53 @@ body {
   }
   .section-area {
     max-width: 100%;
+    padding-top: 20px;
   }
 
   .section-t {
     font-size: 28px;
+  }
+}
+
+@media (min-width: 761px) and (max-width: 998.99px) {
+  .section-page {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    min-height: 100vh;
+  }
+
+  .section-area {
+    max-width: 100%;
+    padding-top: 30px;
+  }
+
+}
+
+@media (min-width: 999px) and (max-width: 1280.00px) {
+  .section-page {
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 20px;
+    min-height: 100vh;
+  }
+
+  .section-area {
+    max-width: 100%;
+    padding-top: 40px;
+  }
+}
+
+@media (min-width: 1280.01px) and (max-width: 1490.00px) {
+  .section-page {
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 20px;
+    min-height: 100vh;
+  }
+
+  .section-area {
+    max-width: 90%;
+    padding-top: 50px;
   }
 }
