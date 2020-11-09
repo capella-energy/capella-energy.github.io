@@ -20,14 +20,18 @@ body {
 }
 
 #nav-item {
-  font-weight: 300;
+
   margin-right: 0px;
   font-size: 18px;
+
   font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   color: rgb(237, 239, 245);
 
 }
 
+#nav-item:hover {
+
+}
 
 .navbar-brand {
   padding-top: 0;
@@ -58,8 +62,9 @@ span {
   margin-left: 16px;
   margin-bottom: 2px;
   border-width: 2.5px;
-  /*border-color: #0065b9ff;*/
-  border-color: #6ecf5b;
+  /*border-color: #0065b9ff;
+  border-color: #6ecf5b;*/
+  border-color: #20B2AA;
   border-radius: 25px 25px;
   font-weight: 600;
 
@@ -67,6 +72,7 @@ span {
 
 #sign-in-button:hover {
   background-color: #6ecf5b;
+  background-color: #20B2AA;
 }
 
 .sign-in-text {
@@ -130,9 +136,11 @@ ul {
 #view-btn {
   color: #01203A;
   /*background-color: #0065b9ff;*/
-  /*background-color: #32CD32;*/
+  /*background-color: #32CD32;
   background-color: #6ecf5b;
-  border-color: #6ecf5b;
+  border-color: #6ecf5b;*/
+  background-color: #20B2AA;
+  border-color: #20B2AA;
   font-weight: 500;
   padding: 10px 20px 10px 20px;
   border-radius: 0;
@@ -179,12 +187,14 @@ h2 {
 }
 
 #meet-capella-button {
+  /*
   background-color: #6ecf5b;
-  color: #01203A;
+  color: #01203A;*/
+  background-color: #20B2AA;
   font-weight: 500;
   padding: 10px 20px 10px 20px;
   border-radius: 0;
-  border-color: #6ecf5b;
+  border-color: #20B2AA;
 }
 
 
@@ -330,8 +340,8 @@ h2 {
 #contact-button {
   margin-top: 40px;
   margin-bottom: 40px;
-  background-color: #6ecf5b;
-  border-color: #6ecf5b;
+  background-color: #20B2AA;
+  border-color: #20B2AA;
   font-weight: 500;
   padding: 10px 20px 10px 20px;
   border-radius: 0;
