@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+        "cstdint": "cpp",
+        "vector": "cpp",
+        "ostream": "cpp",
+        "deque": "cpp",
+        "list": "cpp",
+        "string": "cpp",
+        "unordered_map": "cpp",
+        "unordered_set": "cpp",
+        "*.tcc": "cpp",
+        "forward_list": "cpp"
+    }
+}
