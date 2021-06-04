@@ -1,20 +1,3 @@
-<!--
-
-=========================================================
-* Now UI Kit - v1.3.1
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/now-ui-kit-pro
-* Copyright 2019 Creative Tim (http://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/now-ui-kit/blob/master/LICENSE.md)
-
-* Designed by www.invisionapp.com Coded by www.creative-tim.com
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
--->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -28,18 +11,21 @@
   </title>
   <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
   <!--     Fonts and icons     -->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200|Open+Sans+Condensed:700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,800,500,300,700,200|Open+Sans+Condensed:700" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <!-- CSS Files -->
   <link href="../assets/css/bootstrap.min.css" rel="stylesheet" />
   <link href="../assets/css/now-ui-kit.css?v=1.3.1" rel="stylesheet" />
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <!-- CSS Just for demo purpose, don't include it in your project -->
   <link href="../assets/demo/demo.css" rel="stylesheet" />
 </head>
 
 <body class="blog-posts sidebar-collapse">
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg bg-white fixed-top navbar-transparent" color-on-scroll="100">
+  <nav data-aos="fade-in" data-aos-duration="900" class="navbar navbar-expand-lg bg-white fixed-top navbar-transparent" color-on-scroll="100">
     <div class="container">
       <div class="navbar-translate">
         <a class="navbar-brand" href="../index.html">
@@ -84,26 +70,26 @@
   <!-- End Navbar -->
   <div class="wrapper">
     <div class="page-header page-header-small">
-      <div class="page-header-image" data-parallax="true" style="background-image: url('../assets/img/bg44.jpg');">
+      <div class="page-header-image" data-parallax="true" style="background-image: url('../assets/img/solarback1.png');">
       </div>
       <div class="content-center">
         <div class="row">
-          <div class="col-md-8 ml-auto mr-auto text-center">
-            <h2 class="title">Here is what we've been writing about.</h2>
+          <div  class="col-md-8 ml-auto mr-auto text-center">
+            <h2 data-aos="fade-down" data-aos-duration="900" class="title">Here is what we've been writing about.</h2>
             
-            <a href="https://medium.com/capella-energy" class="btn btn-primary btn-round btn-icon">
+            <a data-aos="fade-down" data-aos-duration="700" href="https://medium.com/capella-energy" class="btn btn-primary btn-round btn-icon">
               <i class="fab fa-medium"></i> 
             </a>
-            <a href="https://www.facebook.com/capellaNJ/" class="btn btn-primary btn-round btn-icon">
+            <a data-aos="fade-down" data-aos-duration="900" href="https://www.facebook.com/capellaNJ/" class="btn btn-primary btn-round btn-icon">
               <i class="fab fa-facebook"></i>
             </a>
-            <a href="https://www.youtube.com/channel/UCw9lCnIc4QUcgHorqnSGgUQ" class="btn btn-primary btn-round btn-icon">
+            <a data-aos="fade-down" data-aos-duration="1200" href="https://www.youtube.com/channel/UCw9lCnIc4QUcgHorqnSGgUQ" class="btn btn-primary btn-round btn-icon">
               <i class="fab fa-youtube"></i>
             </a>
-            <a href="https://www.linkedin.com/company/capellaenergy" class="btn btn-primary btn-round btn-icon">
+            <a data-aos="fade-down" data-aos-duration="1500" href="https://www.linkedin.com/company/capellaenergy" class="btn btn-primary btn-round btn-icon">
               <i class="fab fa-linkedin"></i>
             </a>
-            <a href="https://www.instagram.com/capella.energy/" class="btn btn-primary btn-round btn-icon">
+            <a data-aos="fade-down" data-aos-duration="1700" href="https://www.instagram.com/capella.energy/" class="btn btn-primary btn-round btn-icon">
               <i class="fab fa-instagram"></i>
             </a>
           </div>
@@ -111,9 +97,7 @@
       </div>
     </div>
     <div class="section section-basic-components">
-      <h2 style="text-align: center;" class="title">Capella Blog</h2>
-      <h4 style="text-align: center; padding-bottom: 20px;" class="description">Learn all about renewable energy and community solar. 
-      </h4>
+      
       <div class="mediumBlogContainer" id="retainable-rss-embed" 
         data-rss="https://medium.com/feed/capella-energy" 
         data-maxcols="3" 
@@ -184,6 +168,10 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
   <!-- Control Center for Now Ui Kit: parallax effects, scripts for the example pages etc -->
   <script src="../assets/js/now-ui-kit.js?v=1.3.1" type="text/javascript"></script>
+  <script>
+    AOS.init();
+  </script>
+  
 </body>
 
 </html>
