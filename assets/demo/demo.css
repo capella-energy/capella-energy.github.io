@@ -1092,6 +1092,9 @@
 }
 
 @media screen and (max-width: 576px) {
+  #read-btn {
+    display: none;
+  }
   .index-page .typography-line span {
     margin-left: 0;
   }
@@ -1556,7 +1559,6 @@
   .header-1 .navbar-collapse,
   .header-2 .navbar-collapse,
   .header-3 .navbar-collapse {
-    display: none !important;
   }
   .presentation-page .section-basic-components .image-container {
     height: 425px;

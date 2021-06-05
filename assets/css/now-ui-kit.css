@@ -6237,7 +6237,7 @@ textarea.form-control:active {
 .navbar p {
   line-height: 1.8em;
   font-size: 1em;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 .navbar.navbar-absolute {
@@ -7459,7 +7459,7 @@ img {
 }
 
 .carousel .carousel-inner {
-  box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.3);
+  /* box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.3); */
   border-radius: 0.1875rem;
 }
 
@@ -8298,12 +8298,12 @@ img {
 
 .index-page .page-header,
 .presentation-page .page-header {
-  height: 125vh;
+  height: 100vh;
 }
 
 .index-page .page-header .container > .content-center,
 .presentation-page .page-header .container > .content-center {
-  top: 37%;
+  top: 48%;
 }
 
 .index-page .category-absolute,
@@ -11218,6 +11218,12 @@ img {
 }
 
 @media screen and (max-width: 768px) {
+  .text-center .title {
+    font-size: 2rem;
+  }
+  .text-center .description {
+    font-size: 1rem;
+  }
   .image-container.image-left {
     margin-bottom: 260px;
   }
