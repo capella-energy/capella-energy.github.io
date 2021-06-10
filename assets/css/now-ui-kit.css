@@ -6076,7 +6076,7 @@ textarea.form-control:active {
 }
 
 .navbar .navbar-nav .nav-link.btn {
-  padding: 11px 22px;
+  padding: 8px 22px;
 }
 
 .navbar .navbar-nav .nav-link.btn.btn-lg {
@@ -6090,7 +6090,7 @@ textarea.form-control:active {
 .navbar .navbar-nav .nav-link:not(.btn) {
   text-transform: uppercase;
   font-size: 0.7142em;
-  padding: 0.5rem 0.7rem;
+  padding: 0.4rem 0.7rem;
   line-height: 1.625rem;
 }
 
