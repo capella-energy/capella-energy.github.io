@@ -3212,7 +3212,7 @@ p {
 .description,
 .card-description,
 .footer-big p {
-  color: #9a9a9a;
+  color: #86868b;
   font-weight: 400;
 }
 
@@ -8298,12 +8298,12 @@ img {
 
 .index-page .page-header,
 .presentation-page .page-header {
-  height: 100vh;
+  height: 103vh;
 }
 
 .index-page .page-header .container > .content-center,
 .presentation-page .page-header .container > .content-center {
-  top: 48%;
+  top: 40%;
 }
 
 .index-page .category-absolute,
@@ -10635,6 +10635,10 @@ img {
 }
 
 @media screen and (max-width: 991px) {
+  h1,
+  .h1 {
+    font-size: 2.5em;
+  }
   .navbar-collapse {
     position: fixed;
     display: block !important;
