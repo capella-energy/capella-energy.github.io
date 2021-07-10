@@ -4,6 +4,11 @@
 
 /*      transitions */
 
+#meetjanevideo {
+  height: 540px;
+  width: 960px;
+}
+
 #rtb {
   margin: 0 100px 0 100px !important;
 }
@@ -1037,6 +1042,11 @@
 }
 
 @media (max-width: 768px) {
+  #meetjanevideo {
+    height: 270px;
+    width: 480px;
+  }
+
   #post-container h1 {
     font-size: 30px;
   }
@@ -1237,6 +1247,11 @@
 }
 
 @media (max-width: 991px) {
+  #meetjanevideo {
+    height: 270px;
+    width: 480px;
+  }
+
   .fixed-section.affix {
     position: relative;
     margin-bottom: 100px;
@@ -1331,6 +1346,13 @@
     margin-top: 0;
     font-size: 60px;
     width: 270px;
+  }
+}
+
+@media (max-width: 490px) {
+  #meetjanevideo {
+    height: 225px;
+    width: 400px;
   }
 }
 
