@@ -2,7 +2,10 @@
   margin-bottom: 20px;
 }
 
-/*      transitions */
+/*      transitions  #meetjanevideo {
+  height: 540px;
+  width: 960px;
+}*/
 
 #meetjanevideo {
   height: 540px;
@@ -1043,8 +1046,8 @@
 
 @media (max-width: 768px) {
   #meetjanevideo {
-    height: 270px;
-    width: 480px;
+    height: 225px;
+    width: 400px;
   }
 
   #post-container h1 {
@@ -1351,8 +1354,8 @@
 
 @media (max-width: 490px) {
   #meetjanevideo {
-    height: 225px;
-    width: 400px;
+    height: 175px;
+    width: 350px;
   }
 }
 
