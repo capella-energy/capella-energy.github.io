@@ -1757,10 +1757,10 @@ pre code {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #495057;
+  color: white !important;
   background-color: #fff;
   background-clip: padding-box;
-  border: 1px solid #ced4da;
+
   border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
@@ -1774,10 +1774,10 @@ pre code {
   border: 0;
 }
 .form-control:focus {
-  color: #495057;
-  background-color: #fff;
-  border-color: #80bdff;
-  outline: 0;
+  color: #e89c35 !important;
+
+  border-color: #e89c35 !important;
+  outline: 0.1 !important;
   box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
 }
 .form-control::-webkit-input-placeholder {
@@ -1806,7 +1806,7 @@ pre code {
   opacity: 1;
 }
 select.form-control:focus::-ms-value {
-  color: #495057;
+  color: white;
   background-color: #fff;
 }
 .form-control-file,
@@ -1864,7 +1864,7 @@ select.form-control:focus::-ms-value {
   line-height: 1.5;
   border-radius: 0.3rem;
 }
-select.form-control[multiple],
+select[multiple],
 select.form-control[size] {
   height: auto;
 }
@@ -2077,7 +2077,7 @@ textarea.form-control.is-valid {
 }
 .form-control.is-invalid,
 .was-validated .form-control:invalid {
-  border-color: #dc3545;
+  border-color: #e89c35;
   padding-right: calc(1.5em + 0.75rem);
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23dc3545' viewBox='-2 -2 7 7'%3e%3cpath stroke='%23dc3545' d='M0 0l3 3m0-3L0 3'/%3e%3ccircle r='.5'/%3e%3ccircle cx='3' r='.5'/%3e%3ccircle cy='3' r='.5'/%3e%3ccircle cx='3' cy='3' r='.5'/%3e%3c/svg%3E");
   background-repeat: no-repeat;
@@ -2086,7 +2086,7 @@ textarea.form-control.is-valid {
 }
 .form-control.is-invalid:focus,
 .was-validated .form-control:invalid:focus {
-  border-color: #dc3545;
+  border-color: #e89c35;
   box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
 }
 .form-control.is-invalid ~ .invalid-feedback,

@@ -4123,7 +4123,7 @@ fieldset[disabled] .btn-danger.active {
 
 .btn-neutral {
   background-color: #ffffff;
-  color: #f96332;
+  color: #e89c35;
 }
 
 .btn-neutral:hover,
@@ -4181,17 +4181,17 @@ fieldset[disabled] .btn-neutral.active {
 .btn-neutral.btn-danger:hover,
 .btn-neutral.btn-danger:focus,
 .btn-neutral.btn-danger:active {
-  color: #ff5555 !important;
+  color: #e89c35 !important;
 }
 
 .btn-neutral.btn-primary {
-  color: #f96332;
+  color: #e89c35;
 }
 
 .btn-neutral.btn-primary:hover,
 .btn-neutral.btn-primary:focus,
 .btn-neutral.btn-primary:active {
-  color: #fa7a50 !important;
+  color: #e89c35 !important;
 }
 
 .btn-neutral.btn-info {
@@ -4780,7 +4780,7 @@ fieldset[disabled] .btn-link.active {
 }
 
 .btn.btn-google.btn-neutral {
-  color: #dd4b39;
+  color: #e89c35;
   background-color: #ffffff;
 }
 
@@ -7558,13 +7558,14 @@ img {
 .footer ul li a {
   color: inherit;
   padding: 13px 0.5rem;
-  font-size: 0.8571em;
-  text-transform: uppercase;
+  font-size: 0.9em;
+  opacity: 0.8;
   text-decoration: none;
 }
 
 .footer ul li a:hover {
   text-decoration: none;
+  opacity: 1;
 }
 
 .footer .social-buttons a,
@@ -11223,7 +11224,7 @@ img {
 
 @media screen and (max-width: 768px) {
   .text-center .title {
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
   .text-center .description {
     font-size: 1rem;
