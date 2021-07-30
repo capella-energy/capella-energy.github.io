@@ -6088,7 +6088,6 @@ textarea.form-control:active {
 }
 
 .navbar .navbar-nav .nav-link:not(.btn) {
-  text-transform: uppercase;
   font-size: 0.7142em;
   padding: 0.4rem 0.7rem;
   line-height: 1.625rem;
@@ -6236,7 +6235,8 @@ textarea.form-control:active {
 
 .navbar p {
   line-height: 1.8em;
-  font-size: 1em;
+
+  font-size: 1.15em;
   font-weight: 600;
 }
 
@@ -11289,6 +11289,11 @@ img {
     right: 6px;
     top: 50%;
     transform: translateY(-50%);
+  }
+
+  .index-page .page-header .container > .content-center,
+  .presentation-page .page-header .container > .content-center {
+    top: 35%;
   }
 }
 
